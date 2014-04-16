@@ -1,0 +1,6 @@
+/vendor/constructions-incongrues/ananas-build-toolkit
+*-dist
+/etc
+/build.*
+/composer.*
+/.git

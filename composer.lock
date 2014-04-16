@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "c55f9b5009770c1e1b18821126642518",
+    "packages": [
+        {
+            "name": "constructions-incongrues/ananas-build-toolkit",
+            "version": "0.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/constructions-incongrues/ananas-build-toolkit.git",
+                "reference": "0.12.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/constructions-incongrues/ananas-build-toolkit/zipball/0.12.0",
+                "reference": "0.12.0",
+                "shasum": ""
+            },
+            "type": "library",
+            "description": "L'Ananas Build Toolkit est un framework de configuration et de déploiement de projet logiciel.",
+            "homepage": "http://constructions-incongrues.github.com/ananas-build-toolkit/",
+            "support": {
+                "issues": "https://github.com/constructions-incongrues/ananas-build-toolkit/issues",
+                "source": "https://github.com/constructions-incongrues/ananas-build-toolkit"
+            },
+            "time": "2014-04-03 13:49:58"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
