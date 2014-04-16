@@ -27,5 +27,10 @@ function getServices($dirServices)
 
 function fixOutput($ouput)
 {
-    return substr(filter_var(trim($ouput), FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES), 0, 160);
+    if (isset($_GET['debug'])) {
+        $limit = 1000000;
+    } else {
+        $limit = 160;
+    }
+    return substr(filter_var(trim($ouput), FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES), 0, $limit);
 }
