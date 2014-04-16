@@ -27,3 +27,4 @@ Ces deux fichiers ont accès aux variables suivantes :
 
 * ```$service``` : le nom du service
 * ```$parameters``` : le contenu de $_GET['parameters'], filtré avec [FILTER_SANITIZE_STRING](http://fr2.php.net/manual/en/filter.filters.sanitize.php)
+* ```$debug``` : true ou false

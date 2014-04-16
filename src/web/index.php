@@ -4,9 +4,11 @@ header('Content-Type: text/plain; charset=utf-8');
 
 // PHP configuration
 if (isset($_GET['debug'])) {
+    $debug = true;
     ini_set('display_errors', true);
     ini_set('html_errors', false);
 } else {
+    $debug = false;
     ini_set('display_errors', false);
 }
 
