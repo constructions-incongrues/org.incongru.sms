@@ -1,6 +1,7 @@
 <?php
 /**
- * SMS Service 'coucou'
+ * SMS script
  */
-header('Content-Type: text/html; charset=utf-8');
-die("tu veux voir ma bite ?");
+header('Content-Type: text/html; charset=ISO-8859-1');
+
+die("tu veux voir ma bite?");
